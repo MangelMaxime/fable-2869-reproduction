@@ -8,11 +8,11 @@ root = true
 # A newline ending every file
 # Use 4 spaces as indentation
 [*]
+charset = utf-8
 insert_final_newline = true
 indent_style = space
 indent_size = 4
 trim_trailing_whitespace = true
-charset = utf-8
 
 [*.fsproj]
 indent_size = 2

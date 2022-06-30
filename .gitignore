@@ -17,8 +17,14 @@ node_modules/
 *.exe.mdb
 tests-js
 deploy
-# Build results
 
+# Fable Builds
+[Bb]uilds/
+
+# Capacitor Builds
+apps/ios/antidote/App/App/public/
+
+# Build Resuts
 [Dd]ebug/
 [Rr]elease/
 x64/
@@ -224,4 +230,5 @@ __azurite*
 
 # LOCAL ENVIRONMENT
 env
-docker-data-folder/
+apps/ios/antidote/public/
+**/CssModules.fs

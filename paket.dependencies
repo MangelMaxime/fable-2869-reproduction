@@ -3,21 +3,28 @@ source https://api.nuget.org/v3/index.json
 storage: none
 framework: net6.0
 
-nuget FSharp.Core
-
-# Client
+nuget Fable.Browser.Navigator
 nuget Fable.Core
+nuget Fable.Promise
+nuget Fable.Remoting.Client
+nuget Fable.Remoting.Giraffe
 nuget Feliz
+nuget Feliz.Popover
+nuget Feliz.Router
+# Don't use official NuGet because Fast refresh is broken
+# I will, send a PR to fix the official NuGet when I have time
+# nuget Feliz.UseElmish
+nuget Feliz.Bulma
+nuget Feliz.UseListener
+nuget Fable.FontAwesome.Free
 nuget Fable.Elmish
+nuget Fable.Form
+nuget Feliz.UseDeferred
+nuget Glutinum.Fuse
+nuget Saturn prerelease
 
-group Build
-    source https://api.nuget.org/v3/index.json
-    framework: net6.0
-    storage: none
+// core
+nuget FSLogger
 
-    nuget FSharp.Core
-    nuget Fake.Core.Environment
-    nuget Fake.IO.FileSystem
-    nuget Fake.DotNet.Cli
-    nuget BlackFox.Fake.BuildTask
-    nuget BlackFox.PathEnvironment
+// Fable
+nuget Thoth.Json

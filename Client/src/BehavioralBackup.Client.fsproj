@@ -5,9 +5,20 @@
     <DefineConstants>FABLE_COMPILER</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+
+    <!-- GENERATED -->
     <Compile Include="CssModules.fs" />
+
+    <!-- COMPONENTS -->
+    <Compile Include="Components/Consent.fs" />
+    <!-- <Compile Include="Components/CallCard/IncomingCall.fs" /> -->
+
+    <!-- TOP LEVEL APP -->
+    <!-- <Compile Include="ThemeDark.fs" />
+    <Compile Include="ThemeLight.fs" /> -->
     <Compile Include="App.fs" />
     <Compile Include="Main.fs" />
+
   </ItemGroup>
-  <Import Project="..\.paket\Paket.Restore.targets" />
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>

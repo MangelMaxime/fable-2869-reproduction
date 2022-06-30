@@ -9,9 +9,15 @@
       ]
     },
     "paket": {
-      "version": "7.1.5",
+      "version": "7.0.2",
       "commands": [
         "paket"
+      ]
+    },
+    "femto": {
+      "version": "0.12.0",
+      "commands": [
+        "femto"
       ]
     }
   }
